@@ -108,7 +108,7 @@ function App() {
             >
               <div className="book_name"> {book.name} </div>
               <div className="book__price" style={{ marginLeft: "10px" }}>
-                {book.price}
+                ${book.price}
               </div>
               <button
                 style={{ padding: "10px", marginLeft: "10px" }}
